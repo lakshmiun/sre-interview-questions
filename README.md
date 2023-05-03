@@ -73,6 +73,26 @@ so basically Docker have some different restart policy which is no the container
 
 <details><summary><b>What is the process for creating a Jenkins backup? </b></summary><br></details>
 
+## Terraform
+
+<details><summary><b>How do you use terraform for resource creation? </b></summary><br></details>
+
+<details><summary><b>Explain terraform state file </b></summary><br></details>
+
+<details><summary><b>What happens if you have lost terraform state file? </b></summary><br></details>
+
+## SRE
+<details><summary><b> Name some of the deployment strategies</b></summary><br></details>
+
+<details><summary><b>What are SLO,SLA and SLI and error rates? </b></summary><br></details>
+
+<details><summary><b>Name some SRE Pillars </b></summary><br></details>
+
+<details><summary><b>Difference between monitoring and Observability </b></summary><br></details>
+
+
+
+
 
 
 
