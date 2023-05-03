@@ -36,6 +36,17 @@ If you want to update the patches you have to attach the NAT gateway in the priv
 <br>
 </details>
 
+## Kubernetes and Docker
+<details><summary><b>Explain the states of docker container?</b></summary>
+Docker container will be in running state and paused state, created state and it will be in the restarting state and it will be in the exited state. And It will be in the dead state. 
+Created means it has been created but has not been started 
+running means it's currently running and executing its main process. 
+paused means it's processed or temporarily stopped 
+restarting means either it automatically or manually it will be restarted. 
+exited means it has stopped and running it main process has exited. And containers stopped running due to an error or some other issues if it is a dead state.
+<br>
+</details>
+
 
 
 
