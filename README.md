@@ -73,6 +73,8 @@ so basically Docker have some different restart policy which is no the container
 
 <details><summary><b>What is the process for creating a Jenkins backup? </b></summary><br></details>
 
+<details><summary><b> Explain difference betweeb Declarative and scripted pipelines</b></summary><br></details>
+
 ## Terraform
 
 <details><summary><b>How do you use terraform for resource creation? </b></summary><br></details>
