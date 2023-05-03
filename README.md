@@ -110,9 +110,7 @@ Explanation:
 ### Python
 <details><summary><b>Name some python libraries you have used </b></summary><br></details>
 
-
-
-
+<details><summary><b>Explain some of the automation scripts you have written using python?</b></summary><br></details>
 
 
 
