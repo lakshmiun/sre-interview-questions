@@ -47,6 +47,19 @@ exited means it has stopped and running it main process has exited. And containe
 <br>
 </details>
 
+<details><summary><b>Explain restart policies in docker container</b></summary>
+so basically Docker have some different restart policy which is no the container will not restart it automatically even if it stopped for any reason on failure unless stopped always so on failure the container will be restarted only if stopped with nonzero exit code. And unless stopped the container will always be restarted unless it is stopped manually always means the container will restart regardless of exit code or the reason for stopping
+<br></details>
+
+<details><summary><b>Explain Kubernetes worker nodes and master nodes.</b></summary><br></details>
+
+<details><summary><b>How do you upgrade Kubernetes clusters?</b></summary><br></details>
+
+<details><summary><b>Explain Kube proxy and kubelet</b></summary><br></details>
+
+<details><summary><b>What is init container?</b></summary><br></details>
+
+
 
 
 
