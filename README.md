@@ -2,6 +2,6 @@
 Hi, I'm Sahaja undavalli and in this repository there is a collection of DevOps/Site Reliability Engineer (SRE) interview questions and answers.
 
 ## Cloud
-** What are the limitations of aws lambda?
+* What are the limitations of aws lambda?
 
 
