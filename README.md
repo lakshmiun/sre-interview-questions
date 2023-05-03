@@ -92,7 +92,18 @@ so basically Docker have some different restart policy which is no the container
 
 <details><summary><b>Difference between monitoring and Observability </b></summary><br></details>
 
+## Linux
 
+
+## Programming
+
+### BASH
+<details><summary><b>How to check if the last command was run successfully?</summary><br><b>
+Explanation:
+
+  `echo $?` if returns 0 that last command executed successfully
+
+</b></details>
 
 
 
