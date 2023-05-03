@@ -63,7 +63,7 @@ so basically Docker have some different restart policy which is no the container
 
 <details><summary><b>Explain your branching strategy </b></summary><br></details>
 
-<details><summary><b>What is continuous integration, continuous delivery and continuous deployment> </b></summary><br></details>
+<details><summary><b>What is continuous integration, continuous delivery and continuous deployment? </b></summary><br></details>
 
 <details><summary><b>Explain your CI/CD pipeline and  how do you integrate git with Jenkins</b></summary><br></details>
 
