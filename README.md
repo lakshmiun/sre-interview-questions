@@ -59,6 +59,23 @@ so basically Docker have some different restart policy which is no the container
 
 <details><summary><b>What is init container?</b></summary><br></details>
 
+## CI/CD
+
+<details><summary><b>Explain your branching strategy </b></summary><br></details>
+
+<details><summary><b>Explain your CI/CD pipeline and  how do you integrate git with Jenkins</b></summary><br></details>
+
+<details><summary><b>What is a Jenkins Shared Library and how it is useful? </b></summary><br></details>
+
+<details><summary><b>What happens when a Jenkins agent is offline and what is the best practice in that situation? </b></summary><br></details>
+
+<details><summary><b>How do you checkout code from repository using Jenkins? </b></summary><br></details>
+
+<details><summary><b>What is the process for creating a Jenkins backup? </b></summary><br></details>
+
+
+
+
 
 
 
