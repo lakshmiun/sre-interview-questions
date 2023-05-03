@@ -15,7 +15,25 @@ Because the AWS lambda function have some limited access to resources outside of
 <summary><b> What is the cold start time in aws lambda? </b></summary><br>
 So the cold start time is just nothing but it's a time that lambda spends initialization of the function, which includes loading the function code, starting the runtime and initializing the function code with the snap start lambda initializes your function when you publish function version. So cold start problem is just a delay that can occur when a lambda function is invoked for the first time after a period of inactivity, underlying infrastructure provision and initializes the resources needed to execute the function to address this problem. Lambda has few strategy first we have to reduce the function package says the larger function package take longer to load increasing the likelihood of cold start consider reducing the size of our function package by removing the unnecessary dependencies are using a smaller runtime environment. And we have to use a provision the concurrency. AWS offers a feature called provisioned concurrency that enables you to pre warm a number of instances of your function so that they are ready to handle incoming requests without experiencing cold starts. You can configure the number of provision to concurrency instances based on the expected traffic and we can also implement the connection pooling. If your lambda function connects to a database, or other external service, consider implementing connection pooling to reuse existing connection instead of creating the new one for each request. So this can help reduce the time needed to initialize the function.
 you can increase the memory and timeout settings also. We can allocate more memory and increase the timeout settings
+<br>
+</details>
 
+<details>
+<summary><b> Explain layers in lambda</b></summary>
+In the lambda you have to create a layer we have to just refer the compatible runtime this will help you to add easily to your layer to your function
+<br>
+</details>
+
+<details>
+<summary><b>How do you access our web server application in the public?</b></summary>
+If you want to access our web server application in the public, you have to keep it in the public subnet. And you can keep your database servers in the private subnet. And we can just enable the NAT so that you can access outgoing traffic and you can do some batch update. And you can create the load balancer which will automatically redirect the load and load balance across the web servers or we can just create the auto scaling feature which will automatically scale up and scale down the instances based on the usage. If you want to register your DNS in the cloud, you can use the route 53 And also it is act as a regional level failover, if any region goes down, it will switch and it will access from another region.
+<br>
+</details>
+
+<details>
+<summary><b>How do you update the patches in the server?</b></summary>
+If you want to update the patches you have to attach the NAT gateway in the private subnet. So that you can able to install the patches in newer servers which is resides in the private subnet.
+<br>
 </details>
 
 
