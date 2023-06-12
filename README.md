@@ -100,7 +100,7 @@ so basically Docker have some different restart policy which is no the container
 ## Programming
 
 ### BASH
-<details><summary><b>How to check if the last command was run successfully?</summary><br><b>
+<details><summary><b>How to check if the last command has ran successfully?</summary><br><b>
 Explanation:
 
   `echo $?` if returns 0 that last command executed successfully
